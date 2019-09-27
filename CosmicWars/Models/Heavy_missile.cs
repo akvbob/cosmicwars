@@ -2,11 +2,10 @@
  * @(#) Heavy_missile.cs
  */
 
-namespace Class
+namespace Class.CosmicWars.Models
 {
-	using Models = Class.WebAPI.Models;
 	
-	public class Heavy_missile : Models.Powerup
+	public class Heavy_missile : Powerup
 	{
 	}
 	

@@ -2,24 +2,28 @@
  * @(#) Ship.cs
  */
 
-namespace Class.WebAPI.Models
+namespace Class.CosmicWars.Models
 {
 	public class Ship
 	{
-		Coordinate position;
-		
-		Class.Direction orientation;
-		
-		Class.Battleship_types type;
-		
-		int hitCount;
-		
-		public void addHit(  )
+		public Coordinate Position { get; set; }
+
+        public Direction Orientation { get; set; }
+
+        public Battleship_types Type { get; set; }
+
+        public int HitCount { get; set; }
+
+        public Ship()
+        {
+
+        }
+        public void AddHit(  )
 		{
 			
 		}
 		
-		public void isSunk(  )
+		public void IsSunk(  )
 		{
 			
 		}

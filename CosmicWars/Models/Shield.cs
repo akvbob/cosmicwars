@@ -2,11 +2,9 @@
  * @(#) Shield.cs
  */
 
-namespace Class
+namespace Class.CosmicWars.Models
 {
-	using Models = Class.WebAPI.Models;
-	
-	public class Shield : Models.Powerup
+	public class Shield : Powerup
 	{
 	}
 	

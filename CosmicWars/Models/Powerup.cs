@@ -2,18 +2,20 @@
  * @(#) Powerup.cs
  */
 
-namespace Class.WebAPI.Models
+namespace Class.CosmicWars.Models
 {
 	public class Powerup
 	{
-		int price;
-		
-		Class.Powerup_type type;
-		
-		Player_items player_items;
-		
-		Player player;
-		
-	}
+		public int Price { get; set; }
+
+        public Player_items Player_items { get; set; }
+
+        public Player Player { get; set; }
+
+        public Powerup()
+        {
+
+        }
+    }
 	
 }

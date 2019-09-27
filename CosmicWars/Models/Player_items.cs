@@ -2,16 +2,20 @@
  * @(#) Player_items.cs
  */
 
-namespace Class.WebAPI.Models
+namespace Class.CosmicWars.Models
 {
 	public class Player_items
 	{
-		int quantity;
-		
-		Player owner;
-		
-		Powerup powerups;
-		
-	}
+		public int Quantity { get; set; }
+
+        public Player Owner { get; set; }
+
+        public Powerup Powerups { get; set; }
+
+        public Player_items()
+        {
+
+        }
+    }
 	
 }

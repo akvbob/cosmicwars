@@ -2,50 +2,55 @@
  * @(#) Player.cs
  */
 
-namespace Class.WebAPI.Models
+namespace Class.CosmicWars.Models
 {
 	public class Player
 	{
-		Powerup powerup;
-		
-		Settings settings;
-		
-		public void getName(  )
+		public Powerup Powerup { get; set; }
+
+        public Settings Settings { get; set; }
+
+        public Player()
+        {
+
+        }
+
+        public void GetName(  )
 		{
 			
 		}
 		
-		public void getBoardRows(  )
+		public void GetBoardRows(  )
 		{
 			
 		}
 		
-		public void getBoardColumns(  )
+		public void GetBoardColumns(  )
 		{
 			
 		}
 		
-		public void addOpponent(  )
+		public void AddOpponent(  )
 		{
 			
 		}
 		
-		public Attack getAttack(  )
+		public Attack GetAttack(  )
 		{
 			return null;
 		}
 		
-		public void processAtack(  )
+		public void ProcessAtack(  )
 		{
 			
 		}
 		
-		public void setResult(  )
+		public void SetResult(  )
 		{
 			
 		}
 		
-		public void updateBalance(  )
+		public void UpdateBalance(  )
 		{
 			
 		}

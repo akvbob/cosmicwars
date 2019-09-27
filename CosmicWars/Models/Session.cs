@@ -2,28 +2,32 @@
  * @(#) Session.cs
  */
 
-namespace Class.WebAPI.Models
+namespace Class.CosmicWars.Models
 {
 	public class Session
 	{
-		boolean state;
-		
-		boolean turn;
-		
-		int rounds_number;
-		
-		int current_round;
-		
-		Player players;
-		
-		Class.Level level;
-		
-		public void addPlayer(  )
+		public bool State { get; set; }
+
+        public bool Turn { get; set; }
+
+        public int Rounds_number { get; set; }
+
+        public int Current_round { get; set; }
+
+        public Player Players { get; set; }
+
+        public Level Level { get; set; }
+
+        public Session()
+        {
+
+        }
+        public void AddPlayer()
 		{
 			
 		}
 		
-		public void executeTurn(  )
+		public void ExecuteTurn()
 		{
 			
 		}

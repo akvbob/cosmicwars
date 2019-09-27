@@ -2,16 +2,21 @@
  * @(#) Attack.cs
  */
 
-namespace Class.WebAPI.Models
+namespace Class.CosmicWars.Models
 {
 	public class Attack
 	{
-		Class.Cell_states result;
-		
-		boolean ship_destroyed;
-		
-		Coordinate coordinate;
-		
+		public Cell_states Result { get; set; }
+
+        public bool Ship_destroyed { get; set; }
+
+        public Coordinate Coordinate { get; set; }
+
+
+        public Attack()
+        {
+
+        }
 	}
 	
 }

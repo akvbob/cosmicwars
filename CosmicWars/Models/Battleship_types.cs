@@ -2,7 +2,7 @@
  * @(#) Battleship_types.cs
  */
 
-namespace Class
+namespace Class.CosmicWars.Models
 {
 	public enum Battleship_types
 	{

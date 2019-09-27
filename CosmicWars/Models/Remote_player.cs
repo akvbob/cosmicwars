@@ -2,17 +2,20 @@
  * @(#) Remote_player.cs
  */
 
-namespace Class
+namespace Class.CosmicWars.Models
 {
-	using Models = Class.WebAPI.Models;
 	
-	public class Remote_player : Models.Player
+	public class Remote_player : Player
 	{
-		String hostname;
-		
-		int port;
-		
-		public void connect(  )
+		public string Hostname { get; set; }
+
+        public int Port { get; set; }
+
+        public Remote_player()
+        {
+
+        }
+        public void Connect(  )
 		{
 			
 		}

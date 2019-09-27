@@ -2,11 +2,9 @@
  * @(#) Radar.cs
  */
 
-namespace Class
+namespace Class.CosmicWars.Models
 {
-	using Models = Class.WebAPI.Models;
-	
-	public class Radar : Models.Powerup
+	public class Radar : Powerup
 	{
 	}
 	

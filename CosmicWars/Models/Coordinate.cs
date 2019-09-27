@@ -2,23 +2,28 @@
  * @(#) Coordinate.cs
  */
 
-namespace Class.WebAPI.Models
+namespace Class.CosmicWars.Models
 {
 	public class Coordinate
 	{
-		int row;
+		public int Row { get; set; }
+
+        public int Column { get; set; }
+
+        public Cell_states State { get; set; }
+
+        public Board Board { get; set; }
+
+        public Attack Attack { get; set; }
+
+        public Ship Ship { get; set; }
+
+        public Coordinate()
+        {
+
+        }
 		
-		int column;
-		
-		Class.Cell_states state;
-		
-		Board board;
-		
-		Attack attack;
-		
-		Ship ship;
-		
-		public void processAttack(  )
+		public void ProcessAttack(  )
 		{
 			
 		}

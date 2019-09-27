@@ -2,7 +2,7 @@
  * @(#) Languages.cs
  */
 
-namespace Class
+namespace Class.CosmicWars.Models
 {
 	public enum Languages
 	{

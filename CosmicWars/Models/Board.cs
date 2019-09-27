@@ -2,18 +2,22 @@
  * @(#) Board.cs
  */
 
-namespace Class.WebAPI.Models
+namespace Class.CosmicWars.Models
 {
 	public class Board
 	{
-		int length;
-		
-		int width;
-		
-		boolean ready;
-		
-		Coordinate coordinates;
-		
-	}
+		public int Length { get; set; }
+
+        public int Width { get; set; }
+
+        public bool Ready { get; set; }
+
+        public Coordinate Coordinates { get; set; }
+
+        public Board()
+        {
+
+        }
+    }
 	
 }

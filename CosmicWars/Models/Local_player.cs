@@ -2,20 +2,24 @@
  * @(#) Local_player.cs
  */
 
-namespace Class
+namespace Class.CosmicWars.Models
 {
-	using Models = Class.WebAPI.Models;
 	
-	public class Local_player : Models.Player
+	public class Local_player : Player
 	{
-		String name;
-		
-		Models.Board myBoard;
-		
-		int balance;
-		
-		Models.Ship battleship;
-		
-	}
+		public string Name { get; set; }
+
+        public Board MyBoard { get; set; }
+
+        public int Balance { get; set; }
+
+        public Ship Battleship { get; set; }
+
+        public Local_player()
+        {
+
+        }
+
+    }
 	
 }
