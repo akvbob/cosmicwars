@@ -2,7 +2,7 @@
  * @(#) Direction.cs
  */
 
-namespace Class.CosmicWars.Models
+namespace CosmicWars.Models
 {
 	public enum Direction
 	{

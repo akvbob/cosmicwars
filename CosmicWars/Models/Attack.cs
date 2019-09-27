@@ -2,7 +2,7 @@
  * @(#) Attack.cs
  */
 
-namespace Class.CosmicWars.Models
+namespace CosmicWars.Models
 {
 	public class Attack
 	{

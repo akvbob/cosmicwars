@@ -2,7 +2,7 @@
  * @(#) Cell_states.cs
  */
 
-namespace Class.CosmicWars.Models
+namespace CosmicWars.Models
 {
 	public enum Cell_states
 	{

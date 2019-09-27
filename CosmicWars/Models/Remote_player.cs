@@ -2,7 +2,7 @@
  * @(#) Remote_player.cs
  */
 
-namespace Class.CosmicWars.Models
+namespace CosmicWars.Models
 {
 	
 	public class Remote_player : Player

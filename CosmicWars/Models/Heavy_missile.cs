@@ -2,7 +2,7 @@
  * @(#) Heavy_missile.cs
  */
 
-namespace Class.CosmicWars.Models
+namespace CosmicWars.Models
 {
 	
 	public class Heavy_missile : Powerup
